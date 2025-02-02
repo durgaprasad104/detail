@@ -1,5 +1,9 @@
 streamlit
-llama-index
-faiss-cpu
+langchain
+transformers
 sentence-transformers
-PyMuPDF
+faiss-cpu # Important: Use the CPU version of FAISS
+torch # If you are using torch
+accelerate # if you are using accelerate
+bitsandbytes # if you are using bitsandbytes
+PyPDF2 # For PDF handling (if PyPDFLoader uses it)
